@@ -41,17 +41,17 @@ const sharedData = {
 const renderIndex = (req, res) => {
   const mahasiswa = [
     {
-      nama: "Mochammad Rizky Ramadhani",
-      email: "rizkyramadhani181102@gmail.com",
+      nama: "Muhammad Fakhri Fakhruddin",
+      email: "mfakhri766@gmail.com",
     },
     {
-      nama: "Rafael",
-      email: "Rafael29@gmail.com",
+      nama: "Jono",
+      email: "Jono12@gmail.com",
     },
   ];
 
   res.render("index", {
-    nama: "Mochammad Rizky Ramadhani",
+    nama: "Muhammad Fakhri Fakhruddin",
     title: "Halaman Home",
     mahasiswa: mahasiswa,
     ...sharedData,
